@@ -20,11 +20,14 @@
 }
 .x{
     float: right;
+    width: 20px;
+    height: 20px;
     padding: 15px;
 }
 .info{
     text-transform: uppercase;
     font-size: 15px;
+    color: lightgray;
     position: absolute;
     top: 8%;
     left: 48%
@@ -90,6 +93,7 @@
 .four{
     width: 350px;
     border: none;
-    border-bottom: 2px dotted grey;
-    
+    border-bottom: 2px dotted;
+    border-color:lightgray;
 }
+
