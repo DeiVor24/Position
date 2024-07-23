@@ -1,15 +1,60 @@
 .main{
+    display: flex;
+    align-items: center;
+    margin-inline: 550px;
+    margin-block: 180px;
     background-color: yellow;
 }
 
 .photo {
+    display: inline-block;
+
     background-color: blue;
+    width: 40%;
+    height: 500px;
+    position: relative;
+}
+
+.signup {
+    position: absolute;
+    left: 60px;
+}
+
+.policy{
+    position: absolute;
+    left:60px;
+    top: 450px;
 }
 
 .white {
+    display: inline-block;
     background-color: green;
+    width: 60%;
+    height: 600px;
+    position: relative;
+    
+}
+
+.info {
+    text-transform: uppercase;
+    position: absolute;
+    left: 60px;
+    top: 70px;
+        
 }
 
 .getst {
+    display: flex;
     background-color: pink;
+    position: absolute;
+    left: 60px;
+    top: 515px;
+}
+
+.start{
+    text-decoration: none;
+    background-color: blue;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
