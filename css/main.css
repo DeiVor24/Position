@@ -1,60 +1,93 @@
+.body{
+    margin: 0;
+    background-image: url(./img/Screenshot\ 2024-07-22\ 082839.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+    
+    
+    image-resolution: 0;
+}
 .main{
     display: flex;
     align-items: center;
-    margin-inline: 550px;
-    margin-block: 180px;
-    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    margin-top: 13%;
+    margin-left: 25%;
+    position: fixed;
+   
 }
+.x{
+    float: right;
+    padding: 15px;
+}
+.info{
+    text-transform: uppercase;
+    font-size: large;
+    position: absolute;
+    top: 8%;
+    left: 48%
+    
+}
+.getst{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    left: 48%;
+    top:82%;
 
-.photo {
-    display: inline-block;
-
-    background-color: blue;
+}
+.photo{
+    display: flex;
+    align-items:normal;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: dubai light;
+    background-image: url(./img/Screenshot\ 2024-07-22\ 082839.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 40%;
     height: 500px;
-    position: relative;
+    margin-left: 5%;
+    
 }
-
-.signup {
+.white{
+    background-color: white;
+    width: 50%;
+    height: 600px;
+}
+.signup{
     position: absolute;
-    left: 60px;
+    left: 10%;    
 }
 
 .policy{
-    position: absolute;
-    left:60px;
-    top: 450px;
-}
+    font-size: 16px;
+    position: fixed;
+    left: 30%;
+    top:72%;
 
-.white {
-    display: inline-block;
-    background-color: green;
-    width: 60%;
-    height: 600px;
-    position: relative;
-    
-}
-
-.info {
-    text-transform: uppercase;
-    position: absolute;
-    left: 60px;
-    top: 70px;
-        
-}
-
-.getst {
-    display: flex;
-    background-color: pink;
-    position: absolute;
-    left: 60px;
-    top: 515px;
 }
 
 .start{
-    text-decoration: none;
     background-color: blue;
+    color: white;
     padding: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.one,
+.two,
+.three,
+.four{
+    width: 350px;
+    border: none;
+    border-bottom: 2px dotted grey
+
 }
